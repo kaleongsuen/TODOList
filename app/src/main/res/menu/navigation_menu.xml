@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_all"
+        android:icon="@mipmap/about_icon_foreground"
+        android:title="Show All Task" />
+    <item
+        android:id="@+id/nav_work"
+        android:icon="@mipmap/about_icon_cyan"
+        android:title="Show Work" />
+    <item
+        android:id="@+id/nav_family"
+        android:icon="@mipmap/about_icon_green"
+        android:title="Show Family" />
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@mipmap/about_icon_yellow"
+        android:title="Show Friends" />
+    <item
+        android:id="@+id/nav_misc"
+        android:icon="@mipmap/about_icon_red"
+        android:title="Show MISC." />
+    <item
+        android:id="@+id/nav_period"
+        android:icon="@mipmap/about_icon_foreground"
+        android:title="Check Period" />
+</menu>

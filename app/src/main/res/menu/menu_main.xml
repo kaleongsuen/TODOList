@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.keith.test.MainActivity">
+<!--    <item
+        android:id="@+id/filter_none"
+        android:orderInCategory="100"
+        android:title="@string/filter_none"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_work"
+        android:orderInCategory="100"
+        android:title="@string/filter_work"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_family"
+        android:orderInCategory="100"
+        android:title="@string/filter_family"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_friends"
+        android:orderInCategory="100"
+        android:title="@string/filter_friends"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_misc"
+        android:orderInCategory="100"
+        android:title="@string/filter_misc"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"
+        app:showAsAction="always" />
+<!--    <item
+        android:id="@+id/clear_done_task"
+        android:orderInCategory="100"
+        android:title="@string/clear_done_task"
+        app:showAsAction="never" />-->
+</menu>
